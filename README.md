@@ -1,7 +1,7 @@
 # CodeForFutureExercises
 ## Using Technology to Serve God and Others
 
-Welcome to the official repository for **Code for the Future**, a faith-centered Python coding camp designed for students ages **13–19**.
+Welcome to the official repository for **Code for the Future**, a faith-centered Python coding camp designed for students ages **13-19**.
 
 Throughout this program, students will learn the fundamentals of Python programming while discovering how technology can be used to glorify God and serve others.
 
@@ -9,7 +9,7 @@ By the end of the camp, students will build and present a Bible-based Python app
 
 > **"Each of you should use whatever gift you have received to serve others, as faithful stewards of God's grace in its various forms."**
 >
-> **— 1 Peter 4:10**
+> ** - 1 Peter 4:10**
 
 ---
 
@@ -28,7 +28,7 @@ By the end of this program, students will be able to:
 
 # 📅 Weekly Curriculum
 
-## Week 1 — Introduction to Python
+## Week 1 - Introduction to Python
 
 Topics
 
@@ -47,7 +47,7 @@ Project
 
 ---
 
-## Week 2 — Logic & Decision Making
+## Week 2 - Logic & Decision Making
 
 Topics
 
@@ -62,7 +62,7 @@ Project
 
 ---
 
-## Week 3 — Loops & Lists
+## Week 3 - Loops & Lists
 
 Topics
 
@@ -77,7 +77,7 @@ Project
 
 ---
 
-## Week 4 — Functions & Project Development
+## Week 4 - Functions & Project Development
 
 Topics
 
@@ -92,7 +92,7 @@ Project
 
 ---
 
-## Week 5 — Demo Day
+## Week 5 - Demo Day
 
 Topics
 
