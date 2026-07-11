@@ -258,6 +258,6 @@ Don't worry about making mistakes—they're part of learning!
 
 > "Commit your work to the Lord, and your plans will be established."
 >
-> **— Proverbs 16:3**
+> ** - Proverbs 16:3**
 
 Happy Coding! 🚀
