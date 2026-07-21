@@ -1,106 +1,212 @@
 # ============================================================
-#  LESSON 1: Build a Bible Greeting App
-#  Topics: print(), strings, variables, input/output
-# ============================================================
+#  LESSON 1 HOMEWORK: Python Fundamentals
+#  Topics:
+#     - print()
+#     - Comments
+#     - Variables
+#     - Strings
+#     - Integers
+#     - String Casting
 #
-#  HOW TO USE THIS FILE:
-#  - Read each section carefully
-#  - Write your code where you see:  YOUR CODE HERE
-#  - Run the file after each section to test it!
-#  - Don't worry about making mistakes — that's how we learn!
+#  Name: __________________________
 #
+#  Directions:
+#  Complete each section below.
+#  Run your program after every section to make sure it works.
+#  Don't worry about making mistakes—that's how programmers learn!
 # ============================================================
 
 
 # ------------------------------------------------------------
-# SECTION 1: The print() Function
+# SECTION 1: print()
 # ------------------------------------------------------------
-# print() displays text on the screen.
-# Any text must be wrapped in quotes — those are called STRINGS.
+# print() displays information on the screen.
+#
+# YOUR TURN:
+# Print each of the following on its own line:
+#
+# 1. Welcome to Code for the Future!
+# 2. Your name
+# 3. Your favorite Bible verse
+#
+
+# YOUR CODE HERE
+
+
+
+
+# ------------------------------------------------------------
+# SECTION 2: Comments
+# ------------------------------------------------------------
+# Comments help programmers explain their code.
+# Python ignores comments when running your program.
 #
 # Example:
+#
+#   # This prints a welcome message
 #   print("Hello!")
 #
-# YOUR TURN: Print a welcome message to your app.
-# Try something like: "Welcome to the Bible Greeting App!"
+# YOUR TURN:
+# Add a comment before each print statement explaining
+# what that line of code does.
 
-# YOUR CODE HERE:
+# YOUR CODE HERE
+
 
 
 
 # ------------------------------------------------------------
-# SECTION 2: Variables
+# SECTION 3: Variables
 # ------------------------------------------------------------
-# A VARIABLE stores information so you can use it later.
-# Think of it like a labeled jar — you put something inside
-# and can grab it whenever you need it.
+# Variables store information.
+#
+# YOUR TURN:
+# Create the following variables:
+#
+# name
+# age
+# favorite_book
+# favorite_food
+#
+# Then print each variable.
+
+# YOUR CODE HERE
+
+
+
+
+# ------------------------------------------------------------
+# SECTION 4: Strings vs. Integers
+# ------------------------------------------------------------
+# Remember:
+#
+# Strings are wrapped in quotation marks.
+#
+# Integers are whole numbers and DO NOT use quotation marks.
 #
 # Example:
-#   verse = "John 3:16"
-#   print(verse)
 #
-# YOUR TURN: Create a variable called  verse  and store your
-# favorite Bible verse reference inside it (e.g. "Psalm 23:1")
-# Then print it!
-
-# YOUR CODE HERE:
-
-
-
-# ------------------------------------------------------------
-# SECTION 3: Getting Input from the User
-# ------------------------------------------------------------
-# input() lets the user type something in.
-# Whatever they type gets saved into a variable.
+# city = "Charlotte"
+# year = 2026
 #
-# Example:
-#   name = input("What is your name? ")
+# YOUR TURN:
 #
-# YOUR TURN: Ask the user for their name and save it
-# in a variable called  name
+# Create TWO string variables.
+#
+# Create TWO integer variables.
+#
+# Print all four variables.
 
-# YOUR CODE HERE:
+# YOUR CODE HERE
+
 
 
 
 # ------------------------------------------------------------
-# SECTION 4: Using Variables Inside Strings (f-strings)
+# SECTION 5: String Casting
 # ------------------------------------------------------------
-# An f-string lets you mix variables and text together.
-# Put the letter  f  before the quotes, then wrap your
-# variable name in curly braces  { }
+# Sometimes we want to display numbers as text.
+#
+# We can convert a number into a string using:
+#
+# str()
 #
 # Example:
-#   print(f"Hello, {name}! God bless you.")
 #
-# YOUR TURN: Print a personalized Bible greeting using
-# the  name  and  verse  variables you created above.
-# Make it encouraging!
+# age = 15
+#
+# print("I am " + str(age) + " years old.")
+#
+# YOUR TURN:
+#
+# Create an integer called age.
+#
+# Then print the sentence:
+#
+# I am ___ years old.
+#
+# using string casting.
 
-# YOUR CODE HERE:
+# YOUR CODE HERE
+
 
 
 
 # ------------------------------------------------------------
-# SECTION 5: CHALLENGE -- Put it all together!
+# SECTION 6: Mini Challenge
 # ------------------------------------------------------------
-# Now write a mini app that:
-#  1. Prints a welcome message
-#  2. Asks for the user's name
-#  3. Asks "What book of the Bible are you reading?"
-#  4. Prints a custom encouragement message using both answers
+# Build a "Student Information Card"
 #
-# Example output:
-#   Welcome to the Bible Greeting App!
-#   What is your name? Mary
-#   What book of the Bible are you reading? Proverbs
-#   Hi Mary! Keep reading Proverbs -- God's Word lights your path!
+# Create variables for:
+#
+# - name
+# - age
+# - favorite Bible character
+# - favorite Bible verse
+# - favorite color
+#
+# Then print something that looks like this:
+#
+# ------------------------------
+# Student Information Card
+# ------------------------------
+# Name: Sarah
+# Age: 15
+# Favorite Bible Character: Esther
+# Favorite Verse: Psalm 23:1
+# Favorite Color: Blue
+# ------------------------------
+#
+# Challenge yourself to make it neat and organized!
 
-# YOUR CODE HERE:
+# YOUR CODE HERE
+
+
+
+
+# ------------------------------------------------------------
+# BONUS CHALLENGE ⭐
+# ------------------------------------------------------------
+# Without running the program,
+# predict whether each value is a STRING or an INTEGER.
+#
+# "John"
+#
+# 25
+#
+# "25"
+#
+# "Genesis"
+#
+# 3
+#
+# Write your answers as comments.
+#
+# Example:
+#
+# # "John" -> String
+#
+# Then run this code to check your answers:
+#
+# print(type("John"))
+# print(type(25))
+# print(type("25"))
+# print(type("Genesis"))
+# print(type(3))
+
 
 
 
 # ============================================================
-#  GREAT WORK! When you are done, share your Repl link
-#  with your teacher. May God bless your learning journey!
+#  GREAT JOB!
+#
+# Before submitting, make sure:
+#
+# ✓ Your program runs without errors.
+# ✓ Every section is completed.
+# ✓ Your output is neat and easy to read.
+#
+# Bring any questions to next week's class.
+#
+# Happy Coding!
 # ============================================================
