@@ -165,7 +165,7 @@
 
 
 # ------------------------------------------------------------
-# BONUS CHALLENGE ⭐
+# BONUS CHALLENGE 
 # ------------------------------------------------------------
 # Without running the program,
 # predict whether each value is a STRING or an INTEGER.
