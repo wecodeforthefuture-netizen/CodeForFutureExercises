@@ -86,7 +86,7 @@
 #   - add 1 to score
 #HINT: To add 1 to the score, type the code below.
 #score = score + 1 
-#
+# Look at class2_exercise.py to see how to use score in your homework
 # Otherwise:
 #   - print "Incorrect. The answer is Noah."
 
