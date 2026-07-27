@@ -1,3 +1,69 @@
+name = "Ayo"
+#name is a variable
+# "Ayo" is a string
+# type of name = string
+
+
+age = 15
+
+# age is a variable
+# 15 is an integer
+# type of age = integer
+
+is_cool = False
+# is_cool is a variable
+# False is a boolean
+# type of is_cool = boolean
+# school = "Central High"
+
+
+# print("Hello my name is " + name + " and I am " + str(age))
+# print(f"Hello my name is {name} and I am {age}")
+
+
+
+
+
+
+# Create a variable called school and store your school name in it.
+# Print the sentence "My name is --- and I attend _______" using your variable.
+
+# print("My name is " + name + " and I attend " + school)
+# print(f"My name is {name} and I attend {school}")
+ 
+
+
+
+
+
+
+
+
+
+# ============================================================
+# name = "Sarah"
+# age = 15
+# school = "Central High"
+
+# print("Hello " + name + ".")
+# print("You are " + str(age) + " years old.")
+# print("You attend " + school + ".")
+
+
+# print(f"Hello my name is {name}. I am {age} years old. I attend {school}.")
+
+# print(f"hi {name}")
+
+print(100>1)
+
+num_one = 23
+value_two = "23"
+
+print(num_one == value_two)
+
+
+
+
 # CODE FOR THE FUTURE
 # CLASS 2 EXERCISE: Bible Verse Encouragement App
 #
@@ -30,6 +96,9 @@
 
 # YOUR CODE HERE
 
+print("========================================")
+print("      BIBLE VERSE ENCOURAGEMENT APP")
+print("========================================")
 
 
 # ------------------------------------------------------------
@@ -42,6 +111,7 @@
 # name = input("What is your name? ")
 
 # YOUR CODE HERE
+name = input("What is your name? ")
 
 
 
@@ -57,6 +127,10 @@
 # 5 - I need guidance
 
 # YOUR CODE HERE
+print("This is the menu")
+print("1 - I feel worried")
+print("2 - I feel tired")
+print("3 - I feel thankful")
 
 
 
@@ -70,6 +144,10 @@
 # "1", "2", "3", "4", or "5" using quotation marks.
 
 # YOUR CODE HERE
+
+choice = input("Enter a number from 1 to 3: ")
+# Choice will store a string number
+
 
 
 
@@ -108,7 +186,22 @@
 # Add an else for invalid input.
 
 # YOUR CODE HERE
-
+if choice == "1":
+  print(f"My name is {name} and I feel worried")
+if choice == "2":
+  print(f"My name is {name} and I feel tired")
+if choice == "3":
+  print(f"My name is {name} and I feel thankful")
+  
+score = 40
+if score > 90:
+  print("You got an A")
+elif score > 80:
+  print("You got a B")
+elif score > 70:
+  print("You got a C")
+else:
+  print("Keep practicing")
 
 
 # ------------------------------------------------------------
@@ -164,5 +257,3 @@
 # GREAT JOB!
 # You created an interactive program that makes decisions.
 # ============================================================
-
-
