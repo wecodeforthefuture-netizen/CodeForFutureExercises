@@ -33,10 +33,15 @@
 #   - their name
 #   - their age
 #
+# HINT:
+# Use input()
+
 # Convert the age to an integer using int().
-#
-# Then use an f-string to welcome the player.
-#
+# HINT:
+# count = int(input()) 
+# count is originally a string, but we put int() in front of it to convert to an integer.
+# 
+#Then use an f-string to welcome the player.
 # Example:
 # Welcome, Mary! You are 14 years old.
 
@@ -65,10 +70,22 @@
 #
 # Use input() to collect the answer.
 # Use .lower() so B and b are both accepted.
-#
+
+#Example:
+# text = "Hello WORLD!"
+# lowercase_text = text.lower()
+# uppercase_text = text.upper()
+# If you print(lowercase_text), the result will be "hello world". This means .lower() converts string to lowercase. 
+# The opposite is .upper(); it will convert the string to uppercase
+# Look at class2_exercise.py in the challenge section to see how we use .lower() in the code.
+
+
+
 # If the answer is b:
 #   - print "Correct!"
 #   - add 1 to score
+#HINT: To add 1 to the score, type the code below.
+#score = score + 1 
 #
 # Otherwise:
 #   - print "Incorrect. The answer is Noah."
@@ -197,9 +214,10 @@
 
 
 # ------------------------------------------------------------
-# SECTION 6: Age-Based Encouragement
+# SECTION 6: Age-Based Encouragement - BONUS POINTS
 # ------------------------------------------------------------
 # Use the player's age and score together.
+# Look at class slides to help you
 #
 # If the player is under 13 AND scored at least 3:
 #     print "Amazing work for a young Bible scholar!"
