@@ -193,7 +193,11 @@ if choice == "2":
 if choice == "3":
   print(f"My name is {name} and I feel thankful")
   
-score = 40
+# score = 40
+
+score = int(input("Enter your score: "))
+
+# Using input will make score a string so we have to convert it to an integer by putting int()
 if score > 90:
   print("You got an A")
 elif score > 80:
@@ -208,7 +212,7 @@ else:
 # SECTION 6: Boolean Check
 # ------------------------------------------------------------
 # Create a Boolean variable called valid_choice.
-#
+# Create a score and set to 0 and increment by 10 for each correct answer
 # It should be True when the user's choice is one of:
 # "1", "2", "3", "4", or "5"
 #
@@ -221,6 +225,13 @@ else:
 # Then print the value of valid_choice.
 
 # YOUR CODE HERE
+
+score = 0
+if choice == "1" or choice == "2" or choice == "3":
+  valid_choice = True
+  score += 10
+print(score)
+  
 
 
 
@@ -250,7 +261,11 @@ else:
 # Otherwise, print "Please enter yes or no."
 
 # YOUR CODE HERE
-
+question = input("Would you like to save this verse for later? yes or no: ")
+if question.lower() == "yes":
+  print("Great!")
+else:
+  print("Okay")
 
 
 # ============================================================
