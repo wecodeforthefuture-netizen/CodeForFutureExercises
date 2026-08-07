@@ -67,41 +67,46 @@ def instructions():
 
 def start_quiz():
 
-    #################################################
-    # TODO:
-    #
-    # Create a score variable.
-    #################################################
-
-    score = 0
-
-    #################################################
-    # TODO:
-    #
-    # Loop through every question.
-    #################################################
-
-    # YOUR CODE HERE
+    # Step 1
+    # Create a variable named score and set it to 0.
 
 
 
-    #################################################
-    # TODO:
-    #
+    # Step 2
+    # Use a for loop to go through every question.
+
+
+
+    # Step 3
+    # Print the current question.
+
+
+
+    # Step 4
+    # Ask the user for an answer.
+
+
+
+    # Step 5
+    # Convert the user's answer to lowercase.
+
+
+
+    # Step 6
+    # Compare the user's answer with the correct answer.
+
+
+
+    # Step 7
+    # If correct:
+    #    Increase the score by 1
+    # Otherwise:
+    #    Tell them the correct answer.
+
+
+
+    # Step 8
     # Print the final score.
-    #################################################
-
-    print()
-
-    divider()
-
-    print("Quiz Finished!")
-
-    divider()
-
-    # YOUR CODE HERE
-
-    pause()
 
 
 #################################################
