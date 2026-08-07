@@ -5,24 +5,43 @@ Final Project
 
 Bible Quiz Deluxe
 
-Students Names:
+Student Name(s):
 ===============================================
 """
 
 from ui import *
 
+
 #################################################
 # TODO:
 # Add at least 10 Bible questions.
+#
+# Make sure each question is a STRING.
+#
+# Example:
+# questions = [
+#     "Who built the ark?",
+#     "Who defeated Goliath?"
+# ]
 #################################################
 
 questions = [
 
 ]
 
+
 #################################################
 # TODO:
 # Add the answers that match each question.
+#
+# The answer at position 0 should match
+# the question at position 0.
+#
+# Example:
+# answers = [
+#     "noah",
+#     "david"
+# ]
 #################################################
 
 answers = [
@@ -64,49 +83,68 @@ def instructions():
 #################################################
 # FUNCTION
 #################################################
-
+# TODO:
 def start_quiz():
 
-    # Step 1
-    # Create a variable named score and set it to 0.
+    # Step 1:
+    # Create a variable named score.
+    # Start the score at 0.
+    #
+    # YOUR CODE HERE
 
 
 
-    # Step 2
-    # Use a for loop to go through every question.
+    # Step 2:
+    # Use a for loop to go through each question.
+    #
+    # HINT:
+    # You will need the range() and len() functions.
+    #
+    # YOUR CODE HERE
 
 
 
-    # Step 3
-    # Print the current question.
+        # Step 3:
+        # Print the current question.
+        #
+        # YOUR CODE HERE
 
 
-
-    # Step 4
-    # Ask the user for an answer.
-
-
-
-    # Step 5
-    # Convert the user's answer to lowercase.
+        # Step 4:
+        # Ask the user for their answer.
+        #
+        # YOUR CODE HERE
 
 
-
-    # Step 6
-    # Compare the user's answer with the correct answer.
-
-
-
-    # Step 7
-    # If correct:
-    #    Increase the score by 1
-    # Otherwise:
-    #    Tell them the correct answer.
+        # Step 5:
+        # Convert the user's answer to lowercase.
+        #
+        # YOUR CODE HERE
 
 
+        # Step 6:
+        # Compare the user's answer with the
+        # correct answer.
+        #
+        # YOUR CODE HERE
 
-    # Step 8
-    # Print the final score.
+
+        # Step 7:
+        # If the answer is correct:
+        #   - Print a message
+        #   - Increase the score
+        #
+        # Otherwise:
+        #   - Tell the user the correct answer.
+        #
+        # YOUR CODE HERE
+
+
+    # Step 8:
+    # Print the player's final score.
+    #
+    # YOUR CODE HERE
+
 
 
 #################################################
